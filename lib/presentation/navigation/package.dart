@@ -1,0 +1,34 @@
+import 'dart:io';
+
+import 'package:donor_darah/presentation/navigation/routes.dart';
+import 'package:donor_darah/presentation/pages/main_layout/main_layout_screen.dart';
+
+import 'package:donor_darah/presentation/pages/detail_agenda/detail_agenda_screen.dart';
+import 'package:donor_darah/presentation/pages/detail_jadwal/detail_jadwal_page.dart';
+import 'package:donor_darah/presentation/pages/info_berita/detail_info_berita.dart';
+import 'package:donor_darah/presentation/pages/jadwal_donor/jadwal_donor_page.dart';
+import 'package:donor_darah/presentation/pages/login/login_page.dart';
+import 'package:donor_darah/presentation/pages/lupa_password/lupa_password_page.dart';
+import 'package:donor_darah/presentation/pages/notifikasi_detail/notifikasi_detail_screen.dart';
+import 'package:donor_darah/presentation/pages/profile/bukti_donor/screen_bukti_donor.dart';
+import 'package:donor_darah/presentation/pages/profile/change_password/screen_ubah_sandi.dart';
+import 'package:donor_darah/presentation/pages/profile/edit_profile/screen_edit_profil.dart';
+import 'package:donor_darah/presentation/pages/profile/kartu_donor/cubit/kartu_donor_cubit.dart';
+import 'package:donor_darah/presentation/pages/profile/kartu_donor/screen_kartu_donor.dart';
+import 'package:donor_darah/presentation/pages/profile/model/user_model.dart';
+import 'package:donor_darah/presentation/pages/profile/riwayat_donor/screen_riwayar_donor.dart';
+import 'package:donor_darah/presentation/pages/profile/upload_bukti_donor/screen_upload_bukti_donor.dart';
+import 'package:donor_darah/presentation/pages/questionaire/questionaire_page.dart';
+import 'package:donor_darah/presentation/pages/register/screen_register.dart';
+import 'package:donor_darah/presentation/pages/register/screen_register_alamat.dart';
+import 'package:donor_darah/presentation/pages/register/screen_register_sandi.dart';
+import 'package:donor_darah/presentation/pages/stok_darah/screen_stok_darah.dart';
+import 'package:donor_darah/presentation/pages/stok_darah/screen_stok_darahA.dart';
+import 'package:donor_darah/presentation/pages/stok_darah/stock_darah/cubit/detail_stock_darah/cubit/detail_stock_darah_cubit.dart';
+import 'package:donor_darah/presentation/pages/stok_darah/stock_darah/cubit/stock_darah_cubit.dart';
+import 'package:donor_darah/presentation/pages/udd/udd_page.dart';
+import 'package:donor_darah/utility/auth/auth_cubit.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
+import '../pages/udd/cubit/unit_udd_cubit.dart';
+part 'router.dart';
